@@ -1,0 +1,4 @@
+read_verilog cpu.v alu.v pc.v alucontrol.v control.v immgen.v regfile.v
+synth_xilinx -top cpu
+write_verilog cpu_synth.v
+
